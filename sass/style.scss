@@ -253,7 +253,13 @@ header{
 		}
 	}
 
-	h1#branding{
+	.site-title{
+		.blog-name{
+			color: transparent;
+			width: 0;
+			height: 0;
+			overflow: hidden;
+		}
 		img{
 			width: 100%;
 			max-width: 580px;
